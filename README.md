@@ -1,5 +1,4 @@
 #TaxCloud AddIn for AspDotNetStorefront
-===================
 
 Welcome to TaxCloud's AddIn for AspDotNetStorefront.
 
