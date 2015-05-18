@@ -1,7 +1,7 @@
 #TaxCloud AddIn for AspDotNetStorefront
 ===================
 
-##Welcome to TaxCloud's AddIn for AspDotNetStorefront.
+Welcome to TaxCloud's AddIn for AspDotNetStorefront.
 
 This AddIn was initially developed for AspDotNetStorefront version 9.3.1.1 and updated to support version 9.4. Source code of this AddIn and associated documentation files are being made publicly available pursuant to the MIT License.
 
@@ -42,10 +42,8 @@ For more information about our service, please visit [TaxCloud.net](https://taxc
   * **VerifyAddressesProvider.USPS.UserID** - If you alread have a USPS WebTools User ID, then leave this unchanged. If you do not have a USPS WebTools User ID and you will be using TaxCloud for Address Verification (the next setting), then you can use the fake USPS ID '111CLOUD1111' (because TaxCloud does not rely upon your USPS ID to validate addresses)
   * **VerifyAddressesProvider** - Set to 'TaxCloud' if using TaxCloud for address verification.
 7. Click the **Reset Cache** link in the ASPDNSF Administration Console.
-
-**You have now successfully installed the Taxcloud AddIn**
-
-8. Test your installation by going through your normal storefront checkout process.
-9. **IMPORTANT:** Once you have complete a test order, including marking the order as shipped/completed, you **must return to TaxCloud to set your website as LIVE**. Failure to complete this final step will prevent TaxCloud from preparing any sales tax reports.
+8. **You have now successfully installed the Taxcloud AddIn**
+9. Test your installation by going through your normal storefront checkout process.
+10. **IMPORTANT:** Once you have complete a test order, including marking the order as shipped/completed, you **must return to TaxCloud to set your website as LIVE**. Failure to complete this final step will prevent TaxCloud from preparing any sales tax reports.
 
 
