@@ -27,7 +27,7 @@ AspDotNetStorefront supports [manual configuration of tax rates](http://manual.a
 4. **BACKUP YOUR CURRENT ASPDNSF INSTALLATION DIRECTORIES, INCLUDING WWWROOT AND ADMIN BEFORE PROCEEDING.**
 5. Copy source files from [this GitHub Repository](https://github.com/taxcloud/AspDotNetStorefront) into the respective locations in your ASPDNSF installation.
 6. Run/Apply the SQL scripts in this GitHub Repository's /db/ directory.
-6. In the ASPDNSF Administration Console, set the folling AppConfig elements with information for your new TaxCloud account:
+7. In the ASPDNSF Administration Console, set the folling AppConfig elements with information for your new TaxCloud account:
   * **taxcloud.apiloginid** - This is your TaxCloud API ID mentioned above.
   * **taxcloud.apikey** - This is your TaxCloud API KEY mentioned above.
   * **taxcloud.ShippingTaxClassCode** - This is the shipping Taxability Information Code, usually '11010' if you are using Real-Time-Shipping and you **do not markup shipping**. You should use '11000' if you charge flat-rate shipping, or markup your shipping cost such that you are charging your customers more than your actual shipping cost.
@@ -39,10 +39,10 @@ AspDotNetStorefront supports [manual configuration of tax rates](http://manual.a
   * **RTShipping.OriginZip** - The 5-digit zip code of where you are shipping orders from. *If you are using Real-Time-Shipping, you should already have this set*.
   * **VerifyAddressesProvider.USPS.UserID** - If you alread have a USPS WebTools User ID, then leave this unchanged. If you do not have a USPS WebTools User ID and you will be using TaxCloud for Address Verification (the next setting), then you can use the fake USPS ID '111CLOUD1111' (because TaxCloud does not rely upon your USPS ID to validate addresses)
   * **VerifyAddressesProvider** - Set to 'TaxCloud' if using TaxCloud for address verification.
-7. Click the **Reset Cache** link in the ASPDNSF Administration Console.
-8. **You have now successfully installed the Taxcloud AddIn**
-9. Test your installation by going through your normal storefront checkout process.
-10. **IMPORTANT:** Once you have complete a test order, including marking the order as shipped/completed, you **must return to TaxCloud to set your website as LIVE**. Failure to complete this final step will prevent TaxCloud from preparing any sales tax reports.
-========================
+8. Click the **Reset Cache** link in the ASPDNSF Administration Console.
+9. **You have now successfully installed the Taxcloud AddIn**
+10. Test your installation by going through your normal storefront checkout process.
+11. **IMPORTANT:** Once you have complete a test order, including marking the order as shipped/completed, you **must return to TaxCloud to set your website as LIVE**. Failure to complete this final step will prevent TaxCloud from preparing any sales tax reports.
+
 **Please email service@taxcloud.net if you would like to be added as a contributor to this repository.**
 
