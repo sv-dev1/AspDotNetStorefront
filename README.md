@@ -2,7 +2,7 @@
 
 Welcome to TaxCloud's AddIn for AspDotNetStorefront.
 
-This AddIn was initially developed for AspDotNetStorefront version 9.3.1.1 and updated to support version 9.4. Source code of this AddIn and associated documentation files are being made publicly available pursuant to the MIT License.
+This AddIn was initially developed for AspDotNetStorefront version 9.3.1.1 and updated to support version 9.4. **Compatibility with the latest version 9.5 is uncertain at this time.** Source code of this AddIn and associated documentation files are being made publicly available pursuant to the MIT License.
 
 This GitHub repository is managed by The Federal Tax Authority, LLC ("FedTax"), the proud ceator and operator of [TaxCloud](https://taxcloud.net). Please email service@taxcloud.net if you would like to be added as a contributor to this repository.
 
