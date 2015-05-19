@@ -30,7 +30,7 @@ AspDotNetStorefront supports [manual configuration of tax rates](http://manual.a
 7. In the ASPDNSF Administration Console, set the folling AppConfig elements with information for your new TaxCloud account:
   * **taxcloud.apiloginid** - This is your TaxCloud API ID mentioned above.
   * **taxcloud.apikey** - This is your TaxCloud API KEY mentioned above.
-  * **taxcloud.ShippingTaxClassCode** - This is the shipping Taxability Information Code, usually '11010' if you are using Real-Time-Shipping and you **do not markup shipping**. You should use '11000' if you charge flat-rate shipping, or markup your shipping cost such that you are charging your customers more than your actual shipping cost.
+  * **taxcloud.ShippingTaxClassCode** - This is the shipping Taxability Information Code, usually ''11010'' if you are using Real-Time-Shipping and you **do not markup shipping**. You should use ''11000'' if you charge flat-rate shipping, or markup your shipping cost such that you are charging your customers more than your actual shipping cost.
   * **taxcloud.Enabled** - This setting turns the TaxCloud AddIn on (if 'true') or off (if 'false').
   * **RTShipping.OriginAddress** - Street address of where you are shipping orders from. *If you are using Real-Time-Shipping, you should already have this set*.
   * **RTShipping.OriginAddress2** -  Second street address of where you are shipping orders from. *If you are using Real-Time-Shipping, you should already have this set*.
